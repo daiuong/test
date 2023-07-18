@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+}
+hr {
+    margin: 0;
+}
+.header {
+    background-color: rgba(255,255,255,1);
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    padding: 6px 38px;
+    width: 123px;
+    height: 60px;
+    text-align: center;
+}
+@font-face {
+    font-family: 'plus';
+    src: url('../font/PlusJakartaSans-Bold.ttf');
+}
+.komiq {
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 700;
+    font-family: 'plus';
+}
+.ser {
+    padding: 12px;
+}
+.bar-search {
+    display: flex;
+    align-items: center;
+    border: 1px ridge black;
+    border-radius: 8px;
+    height: 48px;
+    width: 600px;
+}
+.ic-search {
+    width: 24px;
+    height: 24px;
+    padding: 12px;
+}
+.box {
+    border: 0;
+    padding: 14px 0;
+    width: 100%;
+}
+@font-face {
+    font-family: 'plusM';
+    src: url('../font/PlusJakartaSans-Medium.ttf');
+}
+input::placeholder {
+    color: rgba(121, 121, 121, 1);
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'plusM';
+}
+input:focus {
+    outline:0;
+}
+@font-face {
+    font-family: 'plusS';
+    src: url('../font/PlusJakartaSans-SemiBold.ttf');
+}
+.login {
+    font-family: 'plusS';
+    padding: 12px 16px;
+    height: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    color: rgba(234, 250, 52, 1);
+    background-color: rgba(37, 36, 39, 1);
+}
