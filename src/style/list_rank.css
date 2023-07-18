@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+}
+hr {
+    margin: 0;
+}
+.list-rank {
+    background-color: rgba(218, 204, 255, 1);
+}
+.rank {
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 24px;
+}
+.text-rank {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 16px;
+}
+.ic-rank {
+    width: 40px;
+    height: 40px;
+    padding-right: 12px;
+}
+@font-face {
+    font-family: 'plusS';
+    src: url('../font/PlusJakartaSans-SemiBold.ttf');
+}
+.tx-rank {
+    font-size: 20px;
+    font-family: 'plusS';
+    font-weight: 600;
+    line-height: 30px;
+    padding: 5px 0;
+}
+@font-face {
+    font-family: 'plusM';
+    src: url('../font/PlusJakartaSans-Medium.ttf');
+}
+.bt {
+    width: auto;
+    height: auto;
+    text-align: center;
+    border-radius: 44px;
+}
+.bt1:hover {
+    box-shadow: 4px 4px rgba(37, 36, 39, 1);
+}
+.text-top {
+    padding: 12px;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'plusM';
+    color: rgba(37, 36, 39, 1);
+}
+.pd {
+    margin: 0 12px;
+}
+.list2 {
+    display: flex; align-items: center; padding-bottom: 84px;
+}
+.slick-list {
+    padding-top: 24px;
+    padding-bottom: 84px;
+    display: flex;
+    text-align: center;
+}
+.wrap {
+    margin: 0 8px;
+    padding: 24px 28px;
+    border: 1px ridge rgba(37, 36, 39, 1);
+    border-radius: 8px;
+    background-color:rgba(255, 255, 255, 1);
+}
+@font-face {
+    font-family: 'plus';
+    src: url('../font/PlusJakartaSans-Bold.ttf');
+}
+.frtop {
+    padding: 8px 12px;
+    border: 1px ridge #2e2b2bd7;
+    border-radius: 44px;
+    background-color: rgba(234, 250, 52, 1);
+    font-size: 12px;
+    line-height: 18px;
+    font-family: 'plus';
+    text-align: center;
+    margin-bottom: 8px;
+}
+.top1 {
+    display: flex;
+
+}
+.top1>img {
+    width: 16px;
+    height: 16px;
+}
+.tx {
+    text-align: left;
+}
+@font-face {
+    font-family: 'plusR';
+    src: url('../font/PlusJakartaSans-Regular.ttf');
+}
+.viewer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.view {
+    font-family: 'plusR';
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(121, 121, 121, 1);
+    padding-right: 4px;
+}
+@font-face {
+    font-family: 'plusS';
+    src: url('../font/PlusJakartaSans-SemiBold.ttf');
+}
+.name {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'plusS';
+    margin: 0;
+}
+.chap {
+    font-family: 'plus';
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0;
+}
+.sli {
+    display: flex;
+    align-items: center;
+}
+.btn {
+    border-radius: 48px;
+    padding: 12px 16px;
+    margin: 0 24px 0 76px;
+}
+.slick-next {
+	position: absolute;
+    border: none;
+    font-size: 0px;
+    background: transparent;
+}
+.slick-prev {
+	position: absolute;
+    border: none;
+    font-size: 0px;
+    background: transparent;
+}
+.prev-btn {
+    border-radius: 48px;
+    padding: 8px;
+    margin: 0 24px 0 76px;
+}
+.next-btn {
+    border-radius: 48px;
+    padding: 8px;
+    margin: 0 76px 0 24px;
+}
+
